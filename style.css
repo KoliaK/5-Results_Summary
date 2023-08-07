@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;1,800&display=swap');
+/*font-family: 'Hanken Grotesk', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0 auto;
+}
+
+body{
+    background-color: hsl(221, 100%, 96%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    border-radius: 20px;
+}
+
+
+
+.content h1{
+    font-size: 18px;
+}
+
+.content h2{
+    font-size: 18px;
+}
+
+.content p{
+    font-size: 18px;
+}
+
+/*LEFT SIDE CONTENT*/
+
+.left-block{
+    width: 200px;
+    padding: 30px 40px;
+    background-image:linear-gradient(hsla(252, 100%, 67%, 0.973),hsl(241, 81%, 54%));
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    border-radius: 20px;
+}
+
+.your-result{
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.circle {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(hsl(241, 81%, 54%), rgba(78, 33, 202, 0.041));
+}
+
+.circle-text{
+    padding: 25% 0;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.circle-text h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: hsl(221, 100%, 96%);
+}
+
+.circle-text p{
+    font-weight: 800;
+    font-size: 13px;
+    color: hsl(241, 41%, 71%);
+}
+
+.result-quality p{
+    font-weight: 700;
+    font-size: 25px;
+    color: hsl(221, 100%, 96%);
+    padding-top: 20px;
+}
+
+.result-description p{
+    font-weight: 500;
+    font-size: 13px;
+    padding: 10px 0;
+}
+/*RIGHT SIDE CONTENT*/
+
+.right-block{
+    padding: 30px 25px;
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.summary{
+    color: hsl(224, 30%, 27%);
+    text-align: left;
+    font-weight: 800;
+}
+
+.skills{
+    padding: 25px 0;
+}
+
+#icon-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#icon-text h1{
+    font-size: 15px;
+}
+
+#icon-text img{
+    height: 15px;
+    padding-right: 10px;
+}
+
+#numbers{
+    display: flex;
+}
+
+#numbers h2{
+    font-size: 15px;
+    padding-right: 7px;
+    color: hsl(224, 30%, 27%);
+}
+
+#numbers p{
+    font-size: 15px;
+    font-weight: 800;
+    color: hsl(241, 100%, 89%);
+}
+
+.reaction{
+    padding: 0 10px;
+    width: 200px;
+    height: 40px;
+    background-color: hsla(0, 100%, 67%, 0.082);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.reaction h1{
+    color: hsl(0, 100%, 67%);
+    font-weight: 500;
+}
+
+.memory{
+    margin: 10px 0;
+    padding: 0 10px;
+    width: 200px;
+    height: 40px;
+    background-color: hsl(39, 100%, 56%, 0.082);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.memory h1{
+    color: hsl(39, 100%, 56%);
+    font-weight: 500;
+}
+
+.verbal{
+    margin: 10px 0;
+    padding: 0 10px;
+    width: 200px;
+    height: 40px;
+    background-color: hsl(166, 100%, 37%, 0.082);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.verbal h1{
+    color: hsl(166, 100%, 37%);
+    font-weight: 500;
+}
+
+.visual{
+    padding: 0 10px;
+    width: 200px;
+    height: 40px;
+    background-color: hsl(234, 85%, 45%, 0.082);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.visual h1{
+    color: hsl(234, 85%, 45%);
+    font-weight: 500;
+}
+
+.continue-button{
+    padding-top: 10px;
+}
+.continue-button button{
+    width: 200px;
+    height: 40px;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(221, 100%, 96%);
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+}
+
+.continue-button:hover button{
+    background-color: hsl(241, 81%, 54%);
+    background-image: linear-gradient(hsl(241, 80%, 66%),hsl(241, 81%, 54%));
+    cursor: pointer;
+}
