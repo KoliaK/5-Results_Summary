@@ -53,6 +53,9 @@ body{
 }
 
 .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     width: 150px;
     height: 150px;
@@ -61,8 +64,6 @@ body{
 }
 
 .circle-text{
-    padding: 25% 0;
-    text-align: center;
     line-height: 1.2;
 }
 
